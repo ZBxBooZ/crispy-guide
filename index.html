@@ -17,33 +17,31 @@
     <header class="logo">
 
         <div class="ipe">
-            <img src="./images/Imagen de WhatsApp 2023-10-10 a las 15.58.52_59f30f0f.jpg" alt="">
+            <img src="./recursos/Imagen de WhatsApp 2023-10-10 a las 15.58.52_59f30f0f.jpg" alt="">
         </div>
         
         
 
     </header>
 
-    <header class="titulo">
+    <header class="título">
          
         <div class="container">
-            <img src="./images/1578511864_pxfuel.com (3).jpg" alt="Imagen" style="width:100%;">
-            <div class="bottom-left">Tapas de plastico</div>
-            <div class="top-left"></div>
-            <div class="top-right"></div>
-            <div class="bottom-right"></div>
-            <div class="centered">La Casa Comun</div>
+            <div class="titulo">
+            <h1>La Casa Común</h1>
+            <h3>Tapas de plástico</h3>
+        </div>
           </div>
         <nav class="otro">
-            <a href="#que-es">¿En que afecta?</a> |
+            <a href="#que-es">¿En qué afecta?</a> |
             <a href="#sintomas">Datos</a> |
-            <a href="#tratamiento">Como ayudar</a>
+            <a href="#tratamiento">Cómo ayudar</a>
         </nav>
     </header>
     <main>
 
         <div id="que-es" class="seccion">
-            <h2>¿En que nos afecta?</h2>
+            <h2>¿En qué nos afecta?</h2>
             <p>La producción e incineración de plásticos contribuye en gran medida al cambio climático. Los residuos plásticos también ahogan nuestras vías fluviales, contaminan nuestros océanos, matan la vida silvestre y se infiltran en nuestra cadena alimentaria.</p>
 
             <p>Los efectos documentados de la exposición a estas sustancias incluyen deterioro del sistema nervioso, problemas reproductivos y para el desarrollo, cáncer, leucemia e impactos genéticos tales como bajo peso al nacer.
@@ -59,8 +57,8 @@
             <p>Las tapitas de plástico que son recolectadas para apoyar a niños con cáncer, son vendidas a empresas que muelen y reutilizan el plástico para hacer nuevos productos. El recurso obtenido a partir de la venta de las tapitas es utilizado para ayudar a cubrir el costo del tratamiento integral de niños con cáncer.</p> </div>
         
         <div class="VIDEO seccion">
-            <img src="./images/20190116073302_basura.jpg" frameborder="0">
-            <img src="./images/5ce1328a61204_1004x565.jpg" alt="Como estamos">
+            <img src="./recursos/20190116073302_basura.jpg" frameborder="0">
+            <img src="./recursos/5ce1328a61204_1004x565.jpg" alt="Como estamos">
         </div>
         <div id="sintomas" class="seccion">
             <h2>Datos sobre el problema de plastico.</h2>
@@ -137,7 +135,7 @@
 
 <style> 
 
-  /* General */
+/* General */
 
 html {
     scroll-behavior: smooth;
@@ -172,7 +170,15 @@ header {
 }
 
 header h1 {
-    padding: 15px;
+    color: #f0eeee;
+    font-size: 130px;
+    text-shadow: 0px 3px 10px rgba(0, 0, 0, 0.333);
+}
+
+header h3 {
+    color: #f3eeee;
+    font-size: 60px;
+    text-shadow: 0px 3px 10px rgba(0, 0, 0, 0.333);
 }
 
 header nav {
@@ -215,7 +221,7 @@ h2 {
     
     display: flex;
     justify-content: center;
-    gap: 150px;
+    gap: 100px;
     border-radius: 50%;
 }
 
@@ -224,6 +230,7 @@ h2 {
     box-shadow: #000000a5 9px 5px 10px;
     opacity: 0.7;
     height: 400px;
+    overflow:hidden
 }
 
 .VIDEO img:hover {
@@ -306,55 +313,24 @@ footer {
     position: relative;
     text-align: center;
     color: white;
-    
+    background-image: url("./recursos/1578511864_pxfuel.com (3).jpg");
+    aspect-ratio: 64/35;
+   background-repeat: no-repeat;
+   background-size: cover;
+   display: flex;
+   justify-content: center;
+   align-items: center;
    
+  }
+  
+.container .titulo {
+    text-align: left;
+ }
 
-  }
-  
-  /* Bottom left text */
-  .bottom-left {
-    position: absolute;
-    bottom: 130px;
-    left: 570px;
-    color: #cfcaca;
-    font-size: 28px;
-  }
-  
-  /* Top left text */
-  .top-left {
-    position: absolute;
-    top: 8px;
-    left: 16px;
-  }
-  
-  /* Top right text */
-  .top-right {
-    position: absolute;
-    top: 8px;
-    right: 16px;
-  }
-  
-  /* Bottom right text */
-  .bottom-right {
-    position: absolute;
-    bottom: 225px;
-    right: 225px;
-  }
-  
-  /* Centered text */
-  .centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #fcfbfb;
-    font-size: 120px;
-  }
-
-  .container img{
+  /* .container img{
     max-height: 450px;
     opacity: 0.3;
-  }
+  } */
   
   .importante{
     margin-bottom: 30px;
@@ -374,6 +350,7 @@ footer {
     background-color: rgb(0, 81, 95);
     width: 100%;
 }
+
 
 
   </style>
